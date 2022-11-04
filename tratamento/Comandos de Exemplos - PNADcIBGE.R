@@ -111,6 +111,7 @@ if ("survey" %in% rownames(installed.packages()) == FALSE) {
 }
 library("survey")
 
+
 # Estimando total da renda mensal habitual
 totalrenda <- svytotal(x = ~VD4019, design = dadosPNADc, na.rm = TRUE)
 totalrenda
