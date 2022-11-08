@@ -116,7 +116,7 @@ library("survey")
 totalrenda <- svytotal(x = ~VD4019, design = dadosPNADc, na.rm = TRUE)
 totalrenda
 
-# Exibindo coeficiente de variacao e intervalo de confianca
+#coeficiente de variacao e intervalo de confianca
 cv(totalrenda)
 confint(totalrenda)
 
